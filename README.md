@@ -28,9 +28,11 @@ sudo apt update && sudo apt upgrade -y
 ### 4. Instalação do Docker Engine
 Utilizado o scritp oficial de instalação para garantir a versão mais recente e compatível:
 ```bash
-# Baixar e executar o script de instalação curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh sudo sh get-docker.sh 
+# Baixar e executar o script de instalação curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh sudo sh get-docker.sh
+```
 
 # Configuração de permissões (Rootless mode para o usuário atual) sudo usermod -aG docker $USER newgrp Docker
+
 
 ### 5. Validação
 Confirmação que o Docker está rodando corretamente:
