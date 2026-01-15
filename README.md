@@ -17,11 +17,13 @@ Foi utilizada a máquina **Standard B2als v2** (2 vCPUs, 4GB RAM) na região **C
 O acesso é feito via terminal seguro utilizando chaves RSA:
 ```bash
 ssh -i nome_da_chave.pem azureuser-vm@IP_PUBLICO
+```
 
 ### 3. Preparação do Sistema (Linux)
 Atualização dos pacotes do Ubuntu e instalação de dependências básicas:
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
 
 ### 4. Instalação do Docker Engine
 Utilizado o scritp oficial de instalação para garantir a versão mais recente e compatível:
@@ -34,6 +36,7 @@ Utilizado o scritp oficial de instalação para garantir a versão mais recente 
 Confirmação que o Docker está rodando corretamente:
 ```bash
 docker version
+```
 
 📝 Próximos Passos
 •	[ ] Instalação do Portainer (Interface Visual)
